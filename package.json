@@ -4,8 +4,8 @@
   "description": "Node DB 2 Module Challenge",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "Lambda School",
   "devDependencies": {
@@ -23,7 +23,10 @@
   "homepage": "https://github.com/kayladailey/node-db2-project#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "funding": "^1.0.9",
+    "helmet": "^3.22.0",
     "knex": "^0.20.14",
-    "sqlite": "^4.0.7"
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.1.1"
   }
 }
